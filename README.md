@@ -1,5 +1,5 @@
 # Supplementary Code Repository
-This repository provides supplementary code for our paper **"Zero-Shot Vision-Language Reasoning via Dual-layer Scene Graph Chain-of-Thoughts"**.  
+This repository contains supplementary code for our paper **"Zero-Shot Vision-Language Reasoning via Dual-layer Scene Graph Chain-of-Thoughts"**.  
 It includes scripts for generating scene graphs and producing answers across multiple datasets.
 
 ---
