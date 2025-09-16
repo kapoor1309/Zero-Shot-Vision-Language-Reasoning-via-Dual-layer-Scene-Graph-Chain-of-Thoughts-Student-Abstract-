@@ -1,53 +1,61 @@
+# Supplementary Code Repository
 
-Supplementary Code Repository
+This repository provides supplementary code for our paper **"Zero-Shot Vision-Language Reasoning via Dual-layer Scene Graph Chain-of-Thoughts"**.  
+It includes scripts for generating scene graphs and producing answers across multiple datasets.
 
-This repository contains supplementary code for generating scene graphs and answers using multiple datasets. The folder structure is as follows:
+---
+
+## Repository Structure
 
 
 supplementary/
 ├── MM-Bench/
-│   ├── mm.py
-│   ├── mm_vqa.py
-│   └── query_mm.py
+│ ├── mm.py # Generates object list + global scene graph JSON
+│ ├── mm_vqa.py # Produces final answers from scene graph data
+│ └── query_mm.py # Builds query-specific scene graph JSON
+│
 ├── Whoops!/
-│   ├── whoops.py
-│   ├── whoops_vqa.py
-│   └── query_whoops.py
+│ ├── whoops.py # Generates object list + global scene graph JSON
+│ ├── whoops_vqa.py # Produces final answers from scene graph data
+│ └── query_whoops.py # Builds query-specific scene graph JSON
+│
 ├── SEED/
-│   ├── seed.py
-│   ├── seed_vqa.py
-│   └── query_seed.py
+│ ├── seed.py # Generates object list + global scene graph JSON
+│ ├── seed_vqa.py # Produces final answers from scene graph data
+│ └── query_seed.py # Builds query-specific scene graph JSON
 
 
 
-Folder Descriptions
-
- MM-Bench
-This folder contains code specific to the MM dataset.
-- mm.py  
-  Generates the objects list JSON file and the global scene graph JSON file.
-- mm_vqa.py  
-  Handles the final answer generation based on the scene graph data.
-- query_mm.py  
-  Creates the query-specific scene graph JSON file for targeted analysis.
-
- Whoops!
-This folder contains code specific to the Whoops! dataset.
-- whoops.py
-  Generates the objects list JSON file and the global scene graph JSON file.
-- whoops_vqa.py
-  Handles the final answer generation based on the scene graph data.
-- query_whoops.py 
-  Creates the query-specific scene graph JSON file for targeted analysis.
-
-SEED
-This folder contains code specific to the SEED dataset.
-- seed.py
-  Generates the objects list JSON file and the global scene graph JSON file.
-- seed_vqa.py
-  Handles the final answer generation based on the scene graph data.
-- query_seed.py
-  Creates the query-specific scene graph JSON file for targeted analysis.
 
 
-Each dataset follows the same structure to ensure consistency across different tasks. These scripts are designed to support scene graph generation and question answering workflows in a modular fashion.
+---
+
+## Folder Descriptions
+
+### **MM-Bench**
+Code specific to the **MM-Bench** dataset.  
+- **mm.py** — Generates the objects list JSON file and the global scene graph JSON file.  
+- **mm_vqa.py** — Produces final answers based on scene graph data.  
+- **query_mm.py** — Builds query-specific scene graph JSON files for targeted analysis.  
+
+### **Whoops!**
+Code specific to the **Whoops!** dataset.  
+- **whoops.py** — Generates the objects list JSON file and the global scene graph JSON file.  
+- **whoops_vqa.py** — Produces final answers based on scene graph data.  
+- **query_whoops.py** — Builds query-specific scene graph JSON files for targeted analysis.  
+
+### **SEED**
+Code specific to the **SEED** dataset.  
+- **seed.py** — Generates the objects list JSON file and the global scene graph JSON file.  
+- **seed_vqa.py** — Produces final answers based on scene graph data.  
+- **query_seed.py** — Builds query-specific scene graph JSON files for targeted analysis.  
+
+---
+
+## Notes
+- Each dataset follows the same modular structure for consistency.  
+- The scripts support **scene graph generation** and **question answering workflows** across datasets.  
+
+---
+
+
