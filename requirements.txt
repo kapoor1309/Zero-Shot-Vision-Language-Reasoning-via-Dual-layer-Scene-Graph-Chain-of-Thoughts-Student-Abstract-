@@ -1,0 +1,17 @@
+torch
+torchvision
+transformers
+accelerate
+Pillow
+numpy
+tqdm
+datasets
+tokenizers
+safetensors
+huggingface-hub
+scipy
+scikit-learn
+matplotlib
+seaborn
+pandas
+opencv-python
