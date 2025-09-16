@@ -5,21 +5,21 @@ It includes scripts for generating scene graphs and producing answers across mul
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 supplementary/
 ├── MM-Bench/
-│ ├── mm.py # Generates object list + global scene graph JSON
-│ ├── mm_vqa.py # Produces final answers from scene graph data
-│ └── query_mm.py # Builds query-specific scene graph JSON
+│   ├── mm.py           - Generates the objects list JSON file and the global scene graph JSON file
+│   ├── mm_vqa.py       - Produces final answers from scene graph data
+│   └── query_mm.py     - Builds query-specific scene graph JSON
 ├── Whoops!/
-│ ├── whoops.py # Generates object list + global scene graph JSON
-│ ├── whoops_vqa.py # Produces final answers from scene graph data
-│ └── query_whoops.py# Builds query-specific scene graph JSON
+│   ├── whoops.py       - Generates the objects list JSON file and the global scene graph JSON file
+│   ├── whoops_vqa.py   - Produces final answers from scene graph data
+│   └── query_whoops.py - Builds query-specific scene graph JSON
 ├── SEED/
-│ ├── seed.py # Generates object list + global scene graph JSON
-│ ├── seed_vqa.py # Produces final answers from scene graph data
-│ └── query_seed.py # Builds query-specific scene graph JSON
+│   ├── seed.py         - Generates the objects list JSON file and the global scene graph JSON file
+│   ├── seed_vqa.py     - Produces final answers from scene graph data
+│   └── query_seed.py   - Builds query-specific scene graph JSON
 
 
 
