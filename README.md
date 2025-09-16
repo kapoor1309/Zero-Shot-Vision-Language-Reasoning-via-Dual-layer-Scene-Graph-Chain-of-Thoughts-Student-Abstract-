@@ -16,11 +16,10 @@ supplementary/
 │   ├── whoops.py       - Generates the objects list JSON file and the global scene graph JSON file
 │   ├── whoops_vqa.py   - Produces final answers from scene graph data
 │   └── query_whoops.py - Builds query-specific scene graph JSON
-├── SEED/
-│   ├── seed.py         - Generates the objects list JSON file and the global scene graph JSON file
-│   ├── seed_vqa.py     - Produces final answers from scene graph data
-│   └── query_seed.py   - Builds query-specific scene graph JSON
-
+└── SEED/
+    ├── seed.py         - Generates the objects list JSON file and the global scene graph JSON file
+    ├── seed_vqa.py     - Produces final answers from scene graph data
+    └── query_seed.py   - Builds query-specific scene graph JSON
 
 
 
